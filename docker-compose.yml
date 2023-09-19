@@ -2,7 +2,7 @@ services:
   postgres:
     build:
       context: .
-      dockerfile: postgres.dockerfile
+      dockerfile: Dockerfile
     image: "postgres-tutorials"
     container_name: ${PG_CONTAINER_NAME}
     environment:
